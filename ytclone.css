@@ -1,0 +1,231 @@
+.Top_Table{
+    width: Device-width;
+    margin-bottom: 10px;
+    height: 55px;
+    margin-left: 0PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 0px 0px 3px 0.5px;
+}
+.Left_Bar{
+    width: 100px;
+    min-width: 20px;
+    margin-left: 0%;
+    position: fixed;
+    height: 630px;
+    margin-top: 0px;
+    display: grid;
+    row-gap: 0px;
+    justify-content: center;
+}
+.homediv{
+    height: 60px;
+    width: 100px;
+}
+.sub{
+    //sub
+}
+.sub1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 128, 128);
+    font-size: small;
+}
+.home{
+    height: 60px;
+    width: 100px;
+    padding-top: 0px;
+    padding-bottom: 10PX;
+    margin-top: 0px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.5s, opacity 0.5s;
+}
+.home:hover {
+    background-color: rgb(194, 194, 194);
+}
+.home:active {
+    background-color: rgba(15, 15, 15, 0.927);
+}
+.home_png{
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    justify-content: center;
+}
+.left{
+    width: 180px;
+}
+.ytlogo{
+    object-fit: cover;
+    width: 90px;
+    padding-left: 20px;
+}
+.center{
+    max-width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+}
+.searchbox{
+    padding-top: 0;
+    width: 400px;
+    flex-shrink: 0;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-width: 1.5px;
+    border-style: solid;
+    flex-shrink: 0;
+}
+.searchbar{
+    font-family: arial;
+    width: 350px;
+    flex-shrink: 0;
+    height: 30px;
+    outline: 0;
+    vertical-align: top;
+    margin-top: 5px;
+    border: none;
+}
+.mag{
+    height: 30px;
+    margin-top: 5px;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 7px;
+    flex-shrink: 0;
+}
+
+.mic{
+    width: 38px;
+    height: 38px;
+    padding-left: 0;
+    border-radius: 50%;
+    outline: none;
+    vertical-align: center;
+    border: none;
+    align-items: center;
+}
+.mic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    outline: none;
+    vertical-align: center;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    margin-left: 7px;
+}
+.mic1{
+    object-fit: cover;
+    height: 35px;border-radius: 30px;
+    
+}
+.right{
+    width: 200px;
+    color: red;
+    flex-shrink: none;
+    display: flex;
+    column-gap: 10px;
+    padding-top: 5px;
+}
+.mic2{
+    object-fit: cover;
+    height: 35px;
+    border-radius: 38px;
+    width: 35px;
+}
+
+.barnail{
+    background-color: brown;
+    padding-left: 0%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    height: 2000px;
+    margin-top: 80px;
+}
+.tumbcont1, .tumbcont2, .tumbcont3, .tumbcont4, .tumbcont5{
+    height: 250px;
+    display: grid;
+    width: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 130px;
+    margin-top: 60px;
+    justify-content: center;
+}
+.tumbcont2, .tumbcont3, .tumbcont4, .tumbcont5{
+    margin-top: 15px;
+}
+.container{
+    margin-top: 0px;
+    flex-shrink: 0;
+    padding-bottom: 0;
+    justify-content: center;
+}
+.tumb{
+    height: 180px;
+    width: 340px;
+    min-width: 400px;
+    flex-shrink: 0;
+}
+.adv{
+    width: 340px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.profile{
+    height: 75px;
+    display: inline-block;
+    min-width: 70px;
+    
+}
+.propic{
+    height: 45px;
+    margin-left: 13px;
+    margin-top: 16px;
+    border-radius: 50px;
+}
+.title{
+    display: inline-block;
+    width: 320px;
+    height: 75px;
+    vertical-align: top;
+}
+.title_info{
+    display: grid;
+    height: 70px;
+    margin-top: 4px;
+}
+.title1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 128, 128);
+    font-size: medium;
+}
+.prop{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 128, 128);
+    font-size: small;
+}
+.views{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 128, 128);
+    font-size: small;
+}
